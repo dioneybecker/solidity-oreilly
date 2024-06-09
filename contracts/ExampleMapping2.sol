@@ -6,7 +6,7 @@ contract BalanceMapping {
     mapping(address => uint) public balances;
 
     function deposti() public payable {
-        balances[msg.sender] = msg.value;
+        balances[msg.sender] += msg.value;
     }
 
     function getBalance() public view returns(uint) {

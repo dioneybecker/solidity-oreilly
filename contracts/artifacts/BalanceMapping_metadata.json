@@ -86,11 +86,11 @@
 	},
 	"sources": {
 		"contracts/ExampleMapping2.sol": {
-			"keccak256": "0xf30cbdde273ed321422f936884b3435bbd086eb3c095e197ffd007383e4b9b19",
+			"keccak256": "0x799403e5ede79f163a12a58692a7eaf6186328c6392776de52c4b330313b9523",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c929c2f431b59c55a8e7d28a484bbfb757c25171aa936e79796cb0111e671c50",
-				"dweb:/ipfs/QmbB39JivejQ7pNYuRTtYkEMtFNBdNmP5VwSswV391vaDn"
+				"bzz-raw://a5e79f1bf88fc2fbec10510f7d0645ddada833c1e44d74015d3afcda483053d9",
+				"dweb:/ipfs/QmesMEz6yfNfNey4H2KS69vxxKppgnaCWscynkUWa9spvq"
 			]
 		}
 	},
