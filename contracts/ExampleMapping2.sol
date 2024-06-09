@@ -14,6 +14,8 @@ contract BalanceMapping {
     }
 
     function withdrawaAllMoney(address payable _to) public payable {
-        _to.transfer(getBalance());
+        uint balanceToWithdrawal = balances[msg.sender];
+        balances[msg.sender] = 0;
+        _to.transfer(balanceToWithdrawal);
     }
 }
